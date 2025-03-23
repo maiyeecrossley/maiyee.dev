@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+:root {
+
+--background-primary: #fff5e3;
+--text-primary: #fb9797;
+--text-secondary: #898fff;
+
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  margin: 0;
+  background-color:var(--background-primary);
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--background-primary);
+  font-family: "Playpen Sans";
+}
+
+div {
+  background-color: var(--background-primary)
+}
+
+nav {
+  z-index: 1000;
+  position: relative;
+  height: 150px;
+}
+
+a {
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--text-secondary);
+}
+
+html {
+  background-color: var(--background-primary);
 }
