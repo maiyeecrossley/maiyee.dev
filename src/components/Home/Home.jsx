@@ -11,7 +11,7 @@ export default function Home() {
             <main className={styles.homeContainer}>
                 <section className={styles.heroSection}>
                     <h1>Mai-Yee Crossley 🌸</h1>
-                    <h2>Junior Full-Stack Developer</h2>
+                    <h2>Full-Stack Developer</h2>
 
                     <div className={styles.socials}>
                         <Link to="https://github.com/maiyeecrossley/" target="_blank"><img src={GitHubIcon} width="40" alt="GitHub icon" /></Link>
